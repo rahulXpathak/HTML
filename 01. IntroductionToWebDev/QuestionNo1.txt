@@ -1,0 +1,38 @@
+1: Explain the main components of client-server architecture and their functions.
+ans:-
+    Client-Server Architecture is a network design model where tasks are divided between 
+    providers of a resource or service, called servers, and service requesters, called clients. 
+    Here are the main components:
+
+    i.Client:
+        Function: Requests services or resources from the server.
+        Examples: Web browsers, mobile apps, desktop applications.
+        Role: Initiates communication with the server, sending requests and 
+        waiting for responses.
+
+    ii.Server:
+        Function: Provides services or resources requested by clients.
+        Examples: Web servers, database servers, file servers.
+        Role: Listens for incoming client requests, processes them, and 
+        sends back the appropriate response.
+        
+    iii.Networks:
+        Function: The medium through which clients and servers communicate.
+        Examples: The internet, local area networks (LANs).
+        Role: Facilitates data transfer between the client and server.
+    
+    iv.Protocols:
+        Function: Define rules for communication between client and server.
+        Examples: HTTP/HTTPS, FTP, TCP/IP.
+        Role: Ensure data is transmitted and received in an orderly and reliable 
+        manner.
+
+In summary, the client-server architecture is built on the interaction between clients 
+(which request services), servers (which provide services), and the network (which connects them), 
+all governed by specific communication protocols.
+
+
+
+
+
+
