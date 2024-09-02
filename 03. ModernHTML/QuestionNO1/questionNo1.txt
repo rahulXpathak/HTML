@@ -1,0 +1,31 @@
+1. list out the feature of  HTML 5
+Ans:
+HTML5 is the latest version of the HyperText Markup Language, designed to improve the language with support for the latest multimedia, while keeping it easily readable by humans and consistently understood by computers and devices. Here are some key features of HTML5:
+
+New Semantic Elements: HTML5 introduces new semantic tags like <header>, <footer>, <article>, <section>, <nav>, and <aside>, which help define the structure of a web page more clearly.
+
+Multimedia Support: HTML5 provides built-in support for multimedia elements without the need for external plugins. This includes:
+<audio> for audio content.
+<video> for video content.
+
+Canvas Element: The <canvas> element allows for dynamic, scriptable rendering of 2D shapes and bitmap images, making it easier to create complex graphics like charts, games, and animations directly in the browser.
+
+Scalable Vector Graphics (SVG): HTML5 allows embedding of SVG, which is used to define vector-based graphics that can scale to any size without losing quality.
+
+Geolocation API: This API allows web applications to access the user's geographical location, useful for location-based services.
+
+Web Storage: HTML5 provides two new methods for storing data on the client side:
+
+Local Storage: Stores data with no expiration date.
+Session Storage: Stores data for the duration of the page session.
+New Form Controls and Attributes: HTML5 introduces new form input types like email, url, number, date, range, and color, along with new attributes like placeholder, required, and autofocus, which enhance the functionality and user experience of forms.
+
+Drag and Drop: HTML5 includes native drag-and-drop capabilities, allowing users to drag items from one area of a webpage to another.
+
+Improved Accessibility: HTML5's semantic elements make it easier for assistive technologies to interpret the structure and content of web pages, improving accessibility for users with disabilities.
+
+Offline Capabilities (AppCache): HTML5 provides support for offline web applications through the Application Cache, which allows web apps to run without an internet connection.
+
+Web Workers: This feature allows scripts to run in the background, independently of other scripts, without affecting the performance of the page, enabling more efficient execution of complex tasks.
+
+Microdata and Markup for Search Engines: HTML5 supports microdata, which allows for more detailed descriptions of the content on a page, enhancing SEO by making content more understandable to search engines.

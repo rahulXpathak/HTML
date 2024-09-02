@@ -1,0 +1,57 @@
+Create a simple web page which has a table. The table must have 2 columns HTML and HTML5. The table 
+should include a minimum of three rows describing the differences between HTML and HTML5.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML vs HTML5</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td {
+            border: 1px solid black;
+            text-align: left;
+            padding: 10px;
+            width: 50%;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Differences Between HTML and HTML5</h1>
+    </header>
+
+    <main>
+        <table>
+                <tr>
+                    <th>HTML</th>
+                    <th>HTML5</th>
+                </tr>
+    
+
+                <tr>
+                    <td>Uses basic structural tags like <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code>.</td>
+                    <td>Introduces semantic elements like <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;section&gt;</code>.</td>
+                </tr>
+                <tr>
+                    <td>Requires plugins like Flash for audio and video.</td>
+                    <td>Includes native <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> tags for multimedia support.</td>
+                </tr>
+                <tr>
+                    <td>No native support for graphics or drawing.</td>
+                    <td>Introduces the <code>&lt;canvas&gt;</code> element for rendering 2D graphics and animations.</td>
+                </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HTML vs HTML5 Comparison</p>
+    </footer>
+</body>
+</html>
